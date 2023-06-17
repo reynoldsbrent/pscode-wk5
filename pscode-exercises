@@ -1,20 +1,73 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
 (Your pseudocode here)
+.Ask user to input first number
+.Read in the number(num1) user enters
+.Ask user to enter another number
+.Read in the number(num2) the user enters 
+.Add the two numbers that the user entered (num1 + num2) 
 
 // Exercise 2: Check if a Number is Even or Odd
 
 (Your pseudocode here)
+.Ask user to enter a number
+.Read in the number(num1) the user enters
+.If (num1 % 2 == 0)
+	Print num1 is even
+.Else
+	Print num1 is odd
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
 
-a) Read in 5 separate numbers.   
-b) Calculate the average of the five numbers.
-c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
-d) Write out the results found from steps b and c with a message describing what they are
+a) Read in 5 separate numbers.  
+.Ask user to enter a number
+.Read in the number and assign it to the variable num1 
 
+.Ask user to enter a number
+.Read in the number and assign it to the variable num2
+
+.Ask user to enter a number
+.Read in the number and assign it to the variable num3
+ 
+.Ask user to enter a number
+.Read in the number and assign it to the variable num4 
+
+.Ask user to enter a number
+.Read in the number and assign it to the variable num5
+
+b) Calculate the average of the five numbers.
+.Add (num1 + num2 + num3 + num4 + num5) and assign the value to the variable sum
+
+.Divide (sum / 5) and assign it to the variable average
+
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+.Assign num1 to the variable minimum num1 = minimum
+
+.If num2 < minimum then mimimum = num2
+
+.If num3 < minimum then minimum = num3
+
+.If num4 < minimum then minimum = num4
+
+.If num5 < minimum then minimum = num5
+
+.Assign num1 to maximum num1 = maximum
+
+.If num2 > maximum then maximum = num2
+
+.If num3 > maximum then maximum = num3
+
+.If num4 > maximum then maximum = num4
+
+.If num5 > maximum then maximum = num5
+
+d) Write out the results found from steps b and c with a message describing what they are
 (Your pseudocode here)
+.Print onto screen "The smallest number is " + minimum
+
+.Print onto screen "The largest number is " + maximum
+
 
 -- END --
 
